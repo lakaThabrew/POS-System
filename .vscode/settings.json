@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib\\commons-logging-1.3.5.jar",
+        "lib\\fontbox-3.0.4.jar",
+        "lib\\pdfbox-app-3.0.4.jar",
+        "f:\\acadamic\\Semester 02\\Programme Contruction\\Inclass Lab_ IO stream and serialization_pos system\\POS System\\lib\\fontbox-3.0.4.jar",
+        "f:\\acadamic\\Semester 02\\Programme Contruction\\Inclass Lab_ IO stream and serialization_pos system\\POS System\\lib\\commons-logging-1.3.5.jar",
+        "f:\\acadamic\\Semester 02\\Programme Contruction\\Inclass Lab_ IO stream and serialization_pos system\\POS System\\lib\\pdfbox-app-3.0.4.jar"
+    ]
+}
