@@ -50,7 +50,7 @@ class Bill
             contentStream.showText("SuperSaver POS - Invoice");
             
             contentStream.newLineAtOffset(-((pageWidth - titleWidth) / 2 - 50), -30);
-            contentStream.showText("===================================");
+            contentStream.showText("===============================================================================");
             
             contentStream.setFont(customFont, 12);
             contentStream.newLineAtOffset(0, -20);
@@ -62,11 +62,11 @@ class Bill
             contentStream.newLineAtOffset(0, -20);
             contentStream.showText("Date: " + this.datetime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")));
             contentStream.newLineAtOffset(0, -20);
-            contentStream.showText("-------------------------------------------------------------");
+            contentStream.showText("----------------------------------------------------------------------------");
             contentStream.newLineAtOffset(0, -20);
             contentStream.showText("Items Purchased:");
             contentStream.newLineAtOffset(0, -20);
-            contentStream.showText("-------------------------------------------------------------");
+            contentStream.showText("----------------------------------------------------------------------------");
             contentStream.newLineAtOffset(0, -20);
             contentStream.setFont(customFont, 10);
             

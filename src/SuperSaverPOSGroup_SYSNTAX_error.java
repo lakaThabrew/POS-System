@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.Scanner;
 
@@ -20,7 +21,7 @@ Non-Functional Requirements
     Scalability: - Should support multiple cashiers and customers simultaneously. */
 
 public class SuperSaverPOSGroup_SYSNTAX_error{
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ReportGenerator reportGenerator = new ReportGenerator();
         Scanner input = new Scanner(System.in);
         String response;
